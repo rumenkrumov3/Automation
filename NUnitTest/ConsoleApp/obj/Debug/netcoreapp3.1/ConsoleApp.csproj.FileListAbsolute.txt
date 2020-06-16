@@ -1,0 +1,13 @@
+D:\GIT\Automation\NUnitTest\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+D:\GIT\Automation\NUnitTest\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+D:\GIT\Automation\NUnitTest\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+D:\GIT\Automation\NUnitTest\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+D:\GIT\Automation\NUnitTest\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+D:\GIT\Automation\NUnitTest\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+D:\GIT\Automation\NUnitTest\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csprojAssemblyReference.cache
+D:\GIT\Automation\NUnitTest\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\GIT\Automation\NUnitTest\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+D:\GIT\Automation\NUnitTest\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+D:\GIT\Automation\NUnitTest\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+D:\GIT\Automation\NUnitTest\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+D:\GIT\Automation\NUnitTest\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
