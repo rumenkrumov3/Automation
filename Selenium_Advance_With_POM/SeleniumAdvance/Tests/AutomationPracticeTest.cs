@@ -1,6 +1,9 @@
 ﻿using DemoQA.Tests;
 using NUnit.Framework;
+using NUnit.Framework.Interfaces;
+using OpenQA.Selenium;
 using SeleniumAdvance.Pages.RandomPagesTests.AutomationPracticeRegistration.Objects;
+using System.IO;
 
 namespace SeleniumAdvance.Pages.RandomPagesTests.AutomationPracticeRegistration
 {
@@ -18,6 +21,12 @@ namespace SeleniumAdvance.Pages.RandomPagesTests.AutomationPracticeRegistration
         [TearDown]
         public void TearDown()
         {
+            if (TestContext.CurrentContext.Result.Outcome != ResultState.Success)
+            {
+                string dirPath = Path.GetFullPath(@"..\..\..\", Directory.GetCurrentDirectory());
+                var screenshot = ((ITakesScreenshot)Driver).GetScreenshot();
+                screenshot.SaveAsFile($"{dirPath}\\Screenshots\\{TestContext.CurrentContext.Test.FullName}.png", ScreenshotImageFormat.Png);
+            }
             Driver.Quit();
         }
         

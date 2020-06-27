@@ -4750,9 +4750,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GIT\\Automation\\Selenium_Advance_With_POM\\SeleniumAdvance\\SeleniumAdvance.csproj",
-      "projectName": "SeleniumAdvance",
-      "projectPath": "D:\\GIT\\Automation\\Selenium_Advance_With_POM\\SeleniumAdvance\\SeleniumAdvance.csproj",
+      "projectUniqueName": "D:\\GIT\\Automation\\Selenium_Advance_With_POM\\SeleniumAdvance\\SeleniumProject.csproj",
+      "projectName": "SeleniumProject",
+      "projectPath": "D:\\GIT\\Automation\\Selenium_Advance_With_POM\\SeleniumAdvance\\SeleniumProject.csproj",
       "packagesPath": "C:\\Users\\Rumen\\.nuget\\packages\\",
       "outputPath": "D:\\GIT\\Automation\\Selenium_Advance_With_POM\\SeleniumAdvance\\obj\\",
       "projectStyle": "PackageReference",

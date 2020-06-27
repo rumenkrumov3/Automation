@@ -2,6 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Remote;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.IO;
@@ -18,7 +19,12 @@ namespace DemoQA.Tests
 
         public void Initialize()
         {
+            //ChromeOptions options = new ChromeOptions();
+            //options.AddArgument("-headless");
+
             Driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));         
+
+            //Driver = new RemoteWebDriver(new Uri("http://192.168.1.190:4444/wd/hub"), options);
 
             Builder = new Actions(Driver);
 
